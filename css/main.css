@@ -160,8 +160,8 @@ p,a,li,h3{
 	background-image: url("../img/quote.png");
 	background-size: contain;
 	overflow: hidden;
-	margin-top:56px;
-	margin-bottom: 54px;
+	margin-top:80px;
+	margin-bottom: 80px;
 }
 	.quote h2, .quote p{
 		line-height: 40px;
@@ -226,9 +226,9 @@ p,a,li,h3{
 
 	.ops li{
 		display: block;
-	    width: 31.3%;
+	    width: 31.5%;
 	    float: left;
-	    margin-right: 26px;
+	    margin-right: 20px;
 	}
 
 	.ops li .text-wrap{
@@ -247,3 +247,108 @@ p,a,li,h3{
 			.text-wrap p{
 				line-height: 24px;
 			}
+/*Поехали!*/
+.icon-wrap{
+	border-radius: 50%;
+    border: 1px solid #dbd5d5;
+}
+.ops li{
+	padding-bottom: 56px;
+}
+.text-wrap h3 {
+	padding-bottom: 15px;
+}
+.icon-wrap {
+	margin-top: 6px;	
+}
+#author .container .bio{
+    box-shadow: 0 0 64px rgba(235,235,235,1);
+    border-radius: 10px;
+}
+.bio {
+	/*width: 1270px;*/
+	overflow: hidden;
+	width: 95.63%;
+	margin:25px auto 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+.bio img {
+	display: block;    
+    float: left;
+    padding-right: 24px;
+    padding-left: 55px;
+    margin-top: 48px;
+    margin-bottom: 82px;
+}
+.bio h1{
+	display: block;
+	margin:14px auto 0 auto;
+	border-bottom: solid 1px #ebebeb;
+}
+.bio h2{	
+    font-weight: 300;
+    color: #5e6366;
+    margin-top: 38px;
+}
+
+.bio br{
+	line-height: 32px;
+}
+
+.bio .trade_exp{
+    font-weight: bold;
+	color: #4da7ff;
+	margin-top: -15px;
+	padding-bottom: 25px;
+}
+
+.learning{
+	display: block;
+    float: left;
+    width: 33%;
+    padding-top: 15px;
+    padding-bottom: 80px;    
+}
+
+.icon-wrap2{
+	display: block;
+}
+
+.icon-wrap2 i{
+	margin: auto;
+	width: 120px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid #dbd5d5;
+}
+
+.icon_loop{
+	background-image:url('../img/icons/loop.png');
+}
+
+.icon_hands{
+	background-image:url('../img/icons/hands.png');
+}
+
+.icon_money{
+	background-image:url('../img/icons/money.png');
+}
+
+.learning .custom_h{
+	font-weight: bold;
+	text-align: center;	
+	margin-bottom: 0px;
+	margin-top: 25px; 
+}
+
+.learning p{
+	text-align: center;
+}
+
+.gallery ul li a img{
+		
+}
+
