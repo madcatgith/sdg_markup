@@ -160,6 +160,8 @@ p,a,li,h3{
 	background-image: url("../img/quote.png");
 	background-size: contain;
 	overflow: hidden;
+	margin-top:56px;
+	margin-bottom: 54px;
 }
 	.quote h2, .quote p{
 		line-height: 40px;
@@ -179,3 +181,69 @@ p,a,li,h3{
 		margin:0 auto;
 		
 	}
+
+	.icon-wrap{
+		display: block;
+		float: left;
+		margin-right:24px;
+	}
+	.icon-wrap i{
+		width: 80px;
+    	height: 80px;
+    	display: block;
+    	background-repeat: no-repeat;
+    	background-position: center;
+	}
+
+	.icon_plane{
+		background-image:url('../img/icons/plane.png');
+	}
+	.icon_scope{
+		background-image:url('../img/icons/scope.png');
+	}
+	.icon_wallet{
+		background-image:url('../img/icons/wallet.png');
+	}
+	.icon_bag{
+		background-image:url('../img/icons/bag.png');
+	}
+	.icon_chart{
+		background-image:url('../img/icons/chart.png');
+	}
+	.icon_lock{
+		background-image:url('../img/icons/lock.png');
+	}
+
+	.ops{
+		list-style-type: none;
+		display: block;
+    	overflow: hidden;
+    	padding: 0;
+    	margin: 0;
+    	/*width: 1328px;*/
+    	margin: auto;
+	}
+
+	.ops li{
+		display: block;
+	    width: 31.3%;
+	    float: left;
+	    margin-right: 26px;
+	}
+
+	.ops li .text-wrap{
+		display: block;
+		/*float: right;
+    	width: 70%;*/
+	}
+
+			.text-wrap h3{
+				font-size: 16px;
+				font-weight: 600;
+				margin:0;
+				line-height: 24px;	
+			}
+
+			.text-wrap p{
+				line-height: 24px;
+			}
