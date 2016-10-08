@@ -68,7 +68,7 @@ p,a,li,h3{
 			overflow: hidden;
     		position: absolute;
     		left: 298px;
-    		top: 26px;
+    		top: 32px;
     		font-family: 'Open Sans', sans-serif;
     		font-size: 20px;
     		color: white;
@@ -575,6 +575,14 @@ p,a,li,h3{
 
 .price_block p{
 	line-height: 40px;
+	background-image: url(../img/separator.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 39px;
+}
+
+.price_block p.nosep{
+	background-image: none;
 }
 
 .button{
