@@ -537,6 +537,7 @@ p,a,li,h3{
 .price_block *{
 	border-top-right-radius: 8px;
 	border-top-left-radius: 8px;
+	margin-bottom: 14px;
 }
 
 .price_block .base{
@@ -748,6 +749,7 @@ footer{
 .bx-wrapper .bx-viewport{
 	border: none;
     border-radius: 8px;
+    box-shadow: none;
 }
 
 .bx-wrapper .bx-viewport p{
