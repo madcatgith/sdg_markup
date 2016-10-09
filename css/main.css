@@ -28,6 +28,11 @@ p,a,li,h3{
 	height: 768px;
 }
 
+#top.thanks{
+	background-image: url('../img/bg_thanks.png');
+	height: 960px;
+}
+
 	.header{
 		/*overflow: hidden;*/
 		height: 79px;
@@ -50,6 +55,10 @@ p,a,li,h3{
 			padding:28px 28px 28px 0;
 		}
 
+		#social li{
+			padding:24px 8px 24px 0;
+		}
+
 		.header nav li a{
 			display: block;
 			font-family: 'Open Sans', sans-serif;
@@ -62,6 +71,10 @@ p,a,li,h3{
 		.header nav li a:hover{
 			border-bottom: solid 2px #fff;
     		padding-bottom: 28px;
+		}
+
+		#social li a:hover{
+			padding-bottom: 17px;
 		}
 
 		.header .logo{
@@ -91,12 +104,22 @@ p,a,li,h3{
 		color:#5ac102;
 	}
 
+	#top.thanks h1{
+		font-size: 64px;
+	}
+
 	#top p{
 		text-align: center;
 		color:#fff;
 		font-size: 16px;
 		margin:0;
 		margin-bottom: 32px;
+		font-weight: 400;
+	}
+
+	#top>p>a{
+		color:#fff;
+		font-weight: 400;
 	}
 
 	.green_button{
@@ -112,6 +135,34 @@ p,a,li,h3{
 	    text-align: center;
 	    border-radius: 20px;
 	    margin: auto;
+	}
+
+	.button{
+		display: block;
+		font-family: 'Open Sans', sans-serif;
+		width:200px;
+		background-color:#21a8e8;
+		color:#fff;
+		border-radius: 20px;
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 24px;
+		padding:6px 0 9px 0;
+		margin: 40px auto 48px auto;
+		box-shadow: 0 4px 24px rgba(33,168,232,.32);
+		text-align: center;
+		border:none;
+		cursor:pointer;
+	}
+
+	.button.green{
+		background-color: #5ac102;
+		box-shadow: 0 4px 24px rgba(90,193,2,.32);
+	}
+
+	#top .button{
+		margin-top:25px;
 	}
 
 .container{
@@ -729,7 +780,7 @@ footer{
 	margin-bottom: 40px;
 }
 
-.popup input{
+.popup input[type="text"],.popup input[type="email"]{
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 6px;
 	padding-bottom: 10px;

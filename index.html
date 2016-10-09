@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>SDG TRADE</title>
 	<!-- bxSlider CSS file -->
 	<link href="css/jquery.bxslider.css" rel="stylesheet" />
 	<!-- Add fancyBox -->
@@ -28,7 +28,7 @@
 		</div>
 		<h1>Точка входа<span>.</span></h1>
 		<p>Обучающий интенсив-практикум по торговле<br/>на американском фондовом рынке.</p>
-		<a href="#prog" class="green_button">Подробнее</a>
+		<a href="#prog" class="button green">Подробнее</a>
 	</section>
 	<!-- top section end -->
 
@@ -358,11 +358,13 @@
 		<h1>Заявка</h1>
 		<hr class="white">
 		<div class="inputbox">
-			<input type="text" placeholder="Ваше имя" name="name" id="name"/>
-			<input type="text" name="phone" placeholder="Ваш телефон" id="phone"/>
-			<input type="email" name="email" placeholder="Ваш e-mail" id="email">
+			<form id="feedback" action="thanks.html" method="post">
+				<input type="text" placeholder="Ваше имя" name="name" id="name" required="true" />
+				<input type="text" name="phone" placeholder="Ваш телефон" id="phone" required="true" />
+				<input type="email" name="email" placeholder="Ваш e-mail" id="email" required="true" />
 		</div>
-		<a href="" class="button green">Записаться</a>
+				<input class="button green" type="submit" value="Записаться"/>
+			</form>
 	</div>
 	<footer>
 		<p>2016 © SDG Trade. Все права защищены. <a href="">Пользовательское соглашение.</a></p>
@@ -372,6 +374,8 @@
 <!-- bxSlider Javascript file -->
 <script src="js/jquery.bxslider.js"></script>
 <!--Fancybox Javascript file-->
-<script type="text/javascript" src="fbox/jquery.fancybox.pack.js?v=2.1.5"></script>	
+<script type="text/javascript" src="fbox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<!--Masked Input-->
+<script type="text/javascript" src="js/jquery.maskedinput.js"></script>	
 </body>
 </html>
