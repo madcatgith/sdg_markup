@@ -34,5 +34,10 @@ $(document).ready(function(){
     }
   });
 
+	if ($(window).width()<417){
+		$('#top p').html($('#top p').html().replace('<br>',' '));
+
+		$('.lined li').each(function(){$(this).html('<span>'+$(this).html()+'</span>')});
+	}
 	//$('#phone').mask("+99 (999) 999-99-99");
 });
