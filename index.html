@@ -244,7 +244,7 @@
 				<p>Закрытый чат</p>
 				<p>Запись курса</p>
 				<p class="nosep">25% скидки на курсы SDG</p>
-				<a class="button" href="">Записаться</a>
+				<a class="button" id="base" href="">Записаться</a>
 			</div>
 			<div class="price_block middle">
 				<div class="stand">
@@ -258,7 +258,7 @@
 				<p>Закрытый чат</p>
 				<p>Запись курса</p>
 				<p class="nosep">25% скидки на курсы SDG</p>
-				<a href="" class="button green">Записаться</a>
+				<a href="" id="standart" class="button green">Записаться</a>
 			</div>
 			<div class="price_block">
 				<div class="vip">
@@ -273,7 +273,7 @@
 				<p>Закрытый чат</p>
 				<p>Запись курса</p>
 				<p class="nosep">25% скидки на курсы SDG</p>
-				<a class="button" href="">Записаться</a>
+				<a class="button" id="vip" href="">Записаться</a>
 			</div>
 			<p class="terms">*Условия действуют только на открытия новых счетов, без учета проторгованных акций.</p>
 		</div>	
@@ -363,6 +363,7 @@
 				<input type="text" placeholder="Ваше имя" name="name" id="name" required="true" />
 				<input type="text" name="phone" placeholder="Ваш телефон" id="phone" required="true" />
 				<input type="email" name="email" placeholder="Ваш e-mail" id="email" required="true" />
+				<input type="hidden" name="price" id="cost"/>
 		</div>
 				<input class="button green" type="submit" value="Записаться"/>
 			</form>

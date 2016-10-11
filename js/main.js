@@ -14,6 +14,7 @@ $(document).ready(function(){
 	$('#price .button').on('click',function(e){
 		e.preventDefault();
 		$('.popup').toggle();
+		$('#cost').val($(this).attr("id"));
 		$('.overlay').toggle();
 	});
 	$('#close_cross').on('click',function(e){
