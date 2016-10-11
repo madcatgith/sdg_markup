@@ -35,6 +35,32 @@ $(document).ready(function(){
     }
   });
 
+	if($(window).width()<769){
+		$(".overlay").on("click",function(){
+			$("#main-menu").hide();
+			$(".overlay").hide();
+			$(".burger").attr("src",$(".burger").attr("src").replace("burger_hover","burger"));
+		});
+
+		$("#main-menu li a").on("click",function(){
+			$("#main-menu").hide();
+			$(".overlay").hide();
+			$(".burger").attr("src",$(".burger").attr("src").replace("burger_hover","burger"));
+		});
+
+		$(".burger").on("click",function(e){
+			e.preventDefault();
+			$("#main-menu").toggle();
+			$(".overlay").toggle();
+			if ($("#main-menu").css("display")=="block"){
+				$(".burger").attr("src",$(".burger").attr("src").replace("burger","burger_hover"));
+			}
+			else{
+				$(".burger").attr("src",$(".burger").attr("src").replace("burger_hover","burger"));
+			}
+		});
+	}
+
 	if ($(window).width()<417){
 		$('#top p').html($('#top p').html().replace('<br>',' '));
 
