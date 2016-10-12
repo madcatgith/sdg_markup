@@ -1384,7 +1384,7 @@ footer{
 }
 
 @media screen and (max-width:375px){
-	.header nav {
+	#main-menu {
 		width:375px;
 	}
 	.learning{
@@ -1393,7 +1393,7 @@ footer{
 }
 
 @media screen and (max-width:320px){
-	.header nav {
+	#main-menu {
 		width:320px;
 	}
 	.learning{
